@@ -75,8 +75,10 @@ def count_elements(array)
       location = data[:location]
       #organized_schools = location
       if organized_schools[location]
-        organized_schools[location] << school
-      binding.pry
+    organized_schools[location] << school
+  else
+    organized_schools[location] = []
+    organized_schools[location] << scholl
       end
     end
 end
