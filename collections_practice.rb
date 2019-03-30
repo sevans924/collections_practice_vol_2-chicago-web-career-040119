@@ -75,6 +75,6 @@ def count_elements(array)
       location = data[:location]
       organized_schools = location
       binding.pry
-      
+
     end
 end
