@@ -73,6 +73,7 @@ def count_elements(array)
     organized_schools = {}
     schools.each do |school, data|
       location = data[:location]
+      binding.pry
       end
     end
 end
