@@ -52,7 +52,7 @@ def count_elements(array)
       new_hash = {}
       struc1.each do |new_attr|
         if new_attr[:first_name] == name
-          new_prop_hash = prop.merge(new_attr)
+          new_hash = prop.merge(new_attr)
         end
       end
       new_hash
