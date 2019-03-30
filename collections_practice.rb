@@ -47,15 +47,15 @@ def count_elements(array)
     end.uniq
   end
 
-  def merge_data(arr1, arr2)
-    arr2[0].map do |name, prop_hash|
-      new_prop_hash = {}
-      arr1.each do |new_attr_hash|
-        if new_attr_hash[:first_name] == name
-          new_prop_hash = prop_hash.merge(new_attr_hash)
+  def merge_data(struc1, struc2)
+    struc2[0].map do |name, prop|
+      new_hash = {}
+      struc1.each do |new_attr|
+        if new_attr[:first_name] == name
+          new_prop_hash = prop.merge(new_attr)
         end
       end
-      new_prop_hash
+      new_hash
     end
   end
 
