@@ -71,14 +71,14 @@ def count_elements(array)
 
   def organize_schools(schools)
     organized_schools = {}
-    schools.each do |school, data|
+    schools.each do |name, data|
       location = data[:location]
       #organized_schools = location
       if organized_schools[location]
-    organized_schools[location] << school
+    organized_schools[location] << name
   else
     organized_schools[location] = []
-    organized_schools[location] << school
+    organized_schools[location] << name
       end
     end
 end
