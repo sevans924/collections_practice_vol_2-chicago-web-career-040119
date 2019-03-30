@@ -81,4 +81,5 @@ def count_elements(array)
     organized_schools[location] << name
       end
     end
+    organized_schools
 end
