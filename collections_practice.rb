@@ -50,7 +50,7 @@ def count_elements(array)
   def merge_data(structure1, structure2)
     #new_hash = {}
     structure2[0].map do |name, value|
-      new_hash = {name: value}
+      new_hash = {name, value}
       binding.pry
       structure1.each do |data|
           #binding.pry
