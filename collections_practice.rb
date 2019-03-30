@@ -60,9 +60,11 @@ def count_elements(array)
   end
 
   def find_cool(hash)
+    new_array = []
     hash.each do |name|
-      if name.include?("cool")
-        return name
+      if name[:temperature] == "cool"
+        new_array << name
     end    #binding.pry
     end
+    new_array
   end
