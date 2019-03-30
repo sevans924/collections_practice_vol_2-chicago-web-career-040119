@@ -74,6 +74,6 @@ def count_elements(array)
     schools.each do |school, data|
       location = data[:location]
       binding.pry
-      end
+      
     end
 end
