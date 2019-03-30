@@ -1,3 +1,5 @@
+require "pry"
+
 def begins_with_r(array)
 first_r = true
   array.each do |element|
@@ -52,6 +54,7 @@ def count_elements(array)
       structure1.each do |data|
         if structure1[:first_name] == key
           new_hash = value.merge(data)
+          binding.pry
         end
       end
       new_hash
