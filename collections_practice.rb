@@ -71,6 +71,6 @@ def count_elements(array)
 
   def organize_schools(schools)
     organized_schools = {}
-    schools.each do ||
+    schools.each do |school, data|
     end
 end
