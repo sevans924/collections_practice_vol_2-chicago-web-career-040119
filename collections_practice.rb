@@ -62,5 +62,5 @@ def count_elements(array)
   def find_cool(hash)
     hash.each do |name, attribute|
       binding.pry
-end
+    end
   end
