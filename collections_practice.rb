@@ -68,3 +68,6 @@ def count_elements(array)
     end
     new_array
   end
+
+  def organized_schools()
+  end
