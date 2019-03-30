@@ -78,7 +78,7 @@ def count_elements(array)
     organized_schools[location] << school
   else
     organized_schools[location] = []
-    organized_schools[location] << scholl
+    organized_schools[location] << school
       end
     end
 end
