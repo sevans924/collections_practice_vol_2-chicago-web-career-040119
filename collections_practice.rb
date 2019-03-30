@@ -49,11 +49,11 @@ def count_elements(array)
 
   def merge_data(structure1, structure2)
     #new_hash = {}
-    structure2[0].map do |key, value|
+    structure2[0].map do |name, value|
       new_hash = {}
       structure1.each do |data|
           binding.pry
-        if structure1[:first_name] == key
+        if structure1[:first_name] == name
           new_hash = value.merge(data)
 
         end
