@@ -1,4 +1,4 @@
-#require "pry"
+require "pry"
 
 def begins_with_r(array)
 first_r = true
@@ -62,5 +62,5 @@ def count_elements(array)
   def find_cool(hash)
     hash.each do |name, attribute|
       binding.pry
-
+end
   end
