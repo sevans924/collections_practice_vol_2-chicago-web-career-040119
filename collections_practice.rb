@@ -74,5 +74,6 @@ def count_elements(array)
     schools.each do |school, data|
       data.each do |location, city|
         binding.pry
+      end
     end
 end
