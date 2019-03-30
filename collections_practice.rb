@@ -70,7 +70,7 @@ def count_elements(array)
   end
 
   def organize_schools(schools)
-organized_schools = {}
-schools.each do ||
+    organized_schools = {}
+    schools.each do ||
+    end
 end
-  end
