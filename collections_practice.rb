@@ -73,7 +73,7 @@ def count_elements(array)
     organized_schools = {}
     schools.each do |school, data|
       location = data[:location]
-      organized_schools = location
+      #organized_schools = location
       if organized_schools[location]
         organized_schools[location] << school
       binding.pry
