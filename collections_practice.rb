@@ -1,4 +1,4 @@
-#require "pry"
+require "pry"
 
 def begins_with_r(array)
 first_r = true
@@ -51,7 +51,7 @@ def count_elements(array)
     new_hash = {}
     structure2[0].map do |name, value|
       new_hash[name] = value
-      #binding.pry
+      binding.pry
       structure1.each do |data|
           #binding.pry
         if structure1[data] == name
