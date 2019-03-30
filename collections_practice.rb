@@ -77,6 +77,6 @@ def count_elements(array)
       if organized_schools[location] == data
         organized_schools[location] << school
       binding.pry
-
+end
     end
 end
