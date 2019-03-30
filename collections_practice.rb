@@ -55,7 +55,7 @@ def count_elements(array)
       structure1.each do |data|
           #binding.pry
         if structure1[data] == name
-          new_hash[name] = value.merge(data)
+          new_hash << value.merge(data)
 
         end
       end
