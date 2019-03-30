@@ -48,7 +48,7 @@ def count_elements(array)
   end
 
   def merge_data(structure1, structure2)
-    #new_hash = {}
+    new_hash = {}
     structure2[0].map do |name, value|
       new_hash[name] = {value}
       binding.pry
