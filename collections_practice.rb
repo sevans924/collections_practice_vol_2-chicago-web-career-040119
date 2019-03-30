@@ -58,3 +58,8 @@ def count_elements(array)
       new_hash
     end
   end
+
+  def find_cool(hash)
+    hash.each
+
+  end
