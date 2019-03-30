@@ -51,7 +51,7 @@ def count_elements(array)
     new_hash = {}
     structure2[0].map do |name, value|
       new_hash[name] = value
-      binding.pry
+      #binding.pry
       structure1.each do |data|
           #binding.pry
         if structure1[:first_name] == name
