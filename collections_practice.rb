@@ -1,4 +1,4 @@
-#require "pry"
+require "pry"
 
 def begins_with_r(array)
 first_r = true
@@ -53,7 +53,7 @@ def count_elements(array)
       new_hash[name] = value
       #binding.pry
       structure1.each do |data|
-          #binding.pry
+          binding.pry
         if structure1[:first_name] == name
           new_hash = value.merge(data)
 
