@@ -63,6 +63,6 @@ def count_elements(array)
     hash.each do |name|
       if name.match?("cool")
         return name
-        #binding.pry
+    end    #binding.pry
     end
   end
